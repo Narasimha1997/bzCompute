@@ -4,6 +4,7 @@ from pyCompute.algorithms import DFS, Postorder
 from pyCompute.KernelOperations import *
 from pyCompute.runtime.session import SequentialSession
 from pyCompute.runtime.domain_decomposition import MasterSession
+from pyCompute.runtime.session_2x import Session2x
 
 #string processing modules :
 
@@ -11,6 +12,7 @@ from pyCompute.runtime.domain_decomposition import MasterSession
 import pyCompute.text_processing.graph  as text 
 import pyCompute.text_processing.StringOperations as text_ops 
 from pyCompute.runtime.string_session import StringSession
+from pyCompute.runtime.session_2x import StringSession2x
 
 
 default_graph = Graph()
